@@ -1,0 +1,5202 @@
+[
+    {
+        "idx": 0,
+        "ys": [
+            "The answer is 26.",
+            "The answer is 18",
+            "The answer is 24",
+            "The answer is 24.",
+            "The answer is 24.",
+            "The answer is 26.",
+            "The answer is 36.",
+            "The answer is 24.",
+            "The answer is 20.",
+            "The answer is 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 57,
+            "prompt_tokens": 87,
+            "cost": 0.00024450000000000003
+        }
+    },
+    {
+        "idx": 1,
+        "ys": [
+            "The answer is 42",
+            "The answer is 27.",
+            "The answer is 24.",
+            "The answer is 27",
+            "The answer is 27.",
+            "The answer is 34.",
+            "The answer is 20.",
+            "The answer is 30.",
+            "The answer is 12.",
+            "The answer is 15."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 115,
+            "prompt_tokens": 168,
+            "cost": 0.000482
+        }
+    },
+    {
+        "idx": 2,
+        "ys": [
+            "The answer is 299.25",
+            "The answer is 267.",
+            "The answer is 342.",
+            "The answer is 283.50.",
+            "the answer is 241.50",
+            "The answer is 292.50",
+            "The answer is 376.50",
+            "The answer is $283.50.",
+            "The answer is 283.50.",
+            "The answer is 292.50"
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 186,
+            "prompt_tokens": 255,
+            "cost": 0.0007545
+        }
+    },
+    {
+        "idx": 3,
+        "ys": [
+            "The answer is 18.",
+            "The answer is 13.",
+            "The answer is 10.",
+            "the answer is 18",
+            "The answer is 36.",
+            "The answer is 30.",
+            "The answer is 18.",
+            "The answer is 18.",
+            "The answer is 12.",
+            "the answer is 48"
+        ],
+        "infos": [
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 244,
+            "prompt_tokens": 351,
+            "cost": 0.0010145
+        }
+    },
+    {
+        "idx": 4,
+        "ys": [
+            "The answer is 30.",
+            "The answer is 15.",
+            "The answer is 15.",
+            "The answer is 30.",
+            "The answer is 30.",
+            "the answer is 60",
+            "the answer is 30",
+            "The answer is 30.",
+            "The answer is 15",
+            "The answer is 30."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 301,
+            "prompt_tokens": 435,
+            "cost": 0.0012545
+        }
+    },
+    {
+        "idx": 5,
+        "ys": [
+            "the answer is 10.",
+            "The answer is 12.",
+            "the answer is 24",
+            "the answer is 15. \n\nExplanation: \n2 hours watching TV + 1 hour reading = 3 hours per day\n3 hours x 3 days = 9 hours per week\n9 hours x 4 weeks = 36 hours in 4 weeks\n36 hours on TV and reading in 4 weeks.",
+            "The answer is 9.",
+            "The answer is 18.",
+            "The answer is 16",
+            "The answer is 20.",
+            "the answer is 14 hours",
+            "The answer is 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 417,
+            "prompt_tokens": 506,
+            "cost": 0.001593
+        }
+    },
+    {
+        "idx": 6,
+        "ys": [
+            "The answer is 2.00",
+            "the answer is 4.50",
+            "the answer is 2",
+            "the answer is 4.5",
+            "The answer is 2.50",
+            "the answer is 2.50",
+            "The answer is 2.50.",
+            "The answer is 1.50",
+            "the answer is 3",
+            "The answer is 2.50"
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 484,
+            "prompt_tokens": 570,
+            "cost": 0.001823
+        }
+    },
+    {
+        "idx": 7,
+        "ys": [
+            "The answer is 18.",
+            "the answer is 18",
+            "The answer is 18.",
+            "The answer is 18.",
+            "The answer is 18.",
+            "the answer is 18",
+            "The answer is 18.",
+            "The answer is 18.",
+            "The answer is 18.",
+            "the answer is 18"
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 541,
+            "prompt_tokens": 630,
+            "cost": 0.002027
+        }
+    },
+    {
+        "idx": 8,
+        "ys": [
+            "The answer is 500.",
+            "The answer is 417.",
+            "the answer is 417",
+            "The answer is 417",
+            "The answer is 500.",
+            "The answer is 500.",
+            "the answer is 417",
+            "The answer is 500.",
+            "The answer is 500.",
+            "The answer is 500"
+        ],
+        "infos": [
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 597,
+            "prompt_tokens": 700,
+            "cost": 0.002244
+        }
+    },
+    {
+        "idx": 9,
+        "ys": [
+            "The answer is 360",
+            "The answer is 360.",
+            "The answer is 360.",
+            "The answer is 360.",
+            "The answer is 360",
+            "The answer is 360",
+            "The answer is 360",
+            "The answer is 360",
+            "The answer is 360.",
+            "The answer is 360."
+        ],
+        "infos": [
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 652,
+            "prompt_tokens": 753,
+            "cost": 0.0024335
+        }
+    },
+    {
+        "idx": 10,
+        "ys": [
+            "The answer is 30",
+            "The answer is 30.",
+            "The answer is 30.",
+            "The answer is 30.",
+            "the answer is 30",
+            "The answer is 30.",
+            "The answer is 30.",
+            "The answer is 30.",
+            "The answer is 30.",
+            "the answer is 30"
+        ],
+        "infos": [
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 709,
+            "prompt_tokens": 829,
+            "cost": 0.0026615
+        }
+    },
+    {
+        "idx": 11,
+        "ys": [
+            "the answer is 18",
+            "The answer is 19.",
+            "The answer is 17.",
+            "The answer is 16.",
+            "The answer is 20.",
+            "The answer is 16.",
+            "The answer is 15.",
+            "The answer is 20.",
+            "The answer is 17.",
+            "The answer is 16."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 768,
+            "prompt_tokens": 909,
+            "cost": 0.0028995
+        }
+    },
+    {
+        "idx": 12,
+        "ys": [
+            "The answer is 1400.",
+            "The answer is 1400.",
+            "The answer is 1400.",
+            "The answer is 1400.",
+            "The answer is 1400",
+            "The answer is 1400.",
+            "The answer is 1400",
+            "The answer is 1400.",
+            "The answer is 1400.",
+            "The answer is 1400."
+        ],
+        "infos": [
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 836,
+            "prompt_tokens": 1001,
+            "cost": 0.0031734999999999997
+        }
+    },
+    {
+        "idx": 13,
+        "ys": [
+            "The answer is 130.",
+            "The answer is 130.",
+            "The answer is 140",
+            "The answer is 130.",
+            "The answer is 140 miles.",
+            "The answer is 130.",
+            "The answer is 120.",
+            "The answer is 120 miles.",
+            "The answer is 120.",
+            "The answer is 120."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 897,
+            "prompt_tokens": 1054,
+            "cost": 0.0033750000000000004
+        }
+    },
+    {
+        "idx": 14,
+        "ys": [
+            "The answer is 34",
+            "The answer is 35.",
+            "The answer is 37.",
+            "The answer is 37.",
+            "The answer is 37.",
+            "The answer is 33",
+            "The answer is 32",
+            "The answer is 32.",
+            "The answer is 37.",
+            "The answer is 37."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 954,
+            "prompt_tokens": 1113,
+            "cost": 0.0035775
+        }
+    },
+    {
+        "idx": 15,
+        "ys": [
+            "The answer is 9.60.",
+            "The answer is 8.",
+            "The answer is 96.",
+            "The answer is 9.60.",
+            "The answer is 11.20.",
+            "the answer is 8.10",
+            "The answer is 40.",
+            "the answer is 7.20",
+            "The answer is 8.",
+            "The answer is 12.00"
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 1023,
+            "prompt_tokens": 1175,
+            "cost": 0.0038085000000000003
+        }
+    },
+    {
+        "idx": 16,
+        "ys": [
+            "The answer is 32.",
+            "The answer is 47.",
+            "The answer is 47.",
+            "the answer is 56",
+            "The answer is 35.",
+            "The answer is 47.",
+            "The answer is 45.",
+            "The answer is 47.",
+            "The answer is 39",
+            "The answer is 35."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 1081,
+            "prompt_tokens": 1260,
+            "cost": 0.004052
+        }
+    },
+    {
+        "idx": 17,
+        "ys": [
+            "The answer is 150.",
+            "The answer is 60.",
+            "The answer is 60.",
+            "The answer is 90.",
+            "The answer is 150.",
+            "The answer is 150.",
+            "The answer is 150.",
+            "The answer is 90.",
+            "The answer is 50.",
+            "The answer is 50"
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 1140,
+            "prompt_tokens": 1342,
+            "cost": 0.004293
+        }
+    },
+    {
+        "idx": 18,
+        "ys": [
+            "The answer is 4.",
+            "The answer is 4.",
+            "the answer is 4",
+            "The answer is 4.",
+            "The answer is 4.",
+            "The answer is 4.",
+            "the answer is 4",
+            "the answer is n\n\nIn this case, n = 4. Steve needs 4 vines to ensure he has an adequate supply of cherry tomatoes.",
+            "The answer is 4.",
+            "the answer is 4"
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 1221,
+            "prompt_tokens": 1418,
+            "cost": 0.004569
+        }
+    },
+    {
+        "idx": 19,
+        "ys": [
+            "The answer is 28.",
+            "The answer is 31.",
+            "The answer is 32.",
+            "The answer is 31.",
+            "The answer is 31.",
+            "The answer is $32.",
+            "The answer is $32.",
+            "The answer is 29.",
+            "The answer is $32.",
+            "The answer is 31."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 1281,
+            "prompt_tokens": 1513,
+            "cost": 0.0048315
+        }
+    },
+    {
+        "idx": 20,
+        "ys": [
+            "The answer is 5.",
+            "The answer is 6.",
+            "The answer is 3.",
+            "The answer is 3.",
+            "the answer is 4",
+            "The answer is 6.",
+            "The answer is 3.",
+            "the answer is 3",
+            "The answer is 3.",
+            "the answer is 3"
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 1338,
+            "prompt_tokens": 1578,
+            "cost": 0.005043000000000001
+        }
+    },
+    {
+        "idx": 21,
+        "ys": [
+            "The answer is 360.",
+            "The answer is 450.",
+            "The answer is 450.",
+            "The answer is 360.",
+            "The answer is 450.",
+            "The answer is 450.",
+            "The answer is 495.",
+            "The answer is 180.",
+            "The answer is 450.",
+            "the answer is 495."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 1398,
+            "prompt_tokens": 1678,
+            "cost": 0.005313
+        }
+    },
+    {
+        "idx": 22,
+        "ys": [
+            "The answer is 35.",
+            "The answer is 45.",
+            "The answer is 110.",
+            "The answer is 65.",
+            "The answer is 10.",
+            "The answer is 75.",
+            "The answer is 45.",
+            "The answer is 80.",
+            "The answer is 70",
+            "The answer is 55."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 1457,
+            "prompt_tokens": 1733,
+            "cost": 0.005513500000000001
+        }
+    },
+    {
+        "idx": 23,
+        "ys": [
+            "The answer is 25,000.",
+            "the answer is 17,500",
+            "The answer is 15,000",
+            "the answer is $24,000.",
+            "The answer is 31,500.",
+            "the answer is 24,500",
+            "The answer is 29,700.",
+            "The answer is 16,500",
+            "The answer is 39,000.",
+            "The answer is 29,000."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 1533,
+            "prompt_tokens": 1839,
+            "cost": 0.0058245
+        }
+    },
+    {
+        "idx": 24,
+        "ys": [
+            "The answer is 32",
+            "The answer is 32.",
+            "The answer is 32.",
+            "The answer is 32.",
+            "The answer is 32.",
+            "The answer is 32",
+            "The answer is 32.",
+            "The answer is 32.",
+            "The answer is 32.",
+            "The answer is 32."
+        ],
+        "infos": [
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 1591,
+            "prompt_tokens": 1893,
+            "cost": 0.0060215
+        }
+    },
+    {
+        "idx": 25,
+        "ys": [
+            "The answer is 120400.",
+            "The answer is 88000.",
+            "The answer is 26000",
+            "The answer is 66000.",
+            "The answer is 2000.",
+            "The answer is 7200.",
+            "The answer is 12000",
+            "the answer is 15000",
+            "The answer is 45600",
+            "The answer is 45000."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 1657,
+            "prompt_tokens": 1989,
+            "cost": 0.0062975
+        }
+    },
+    {
+        "idx": 26,
+        "ys": [
+            "The answer is 60",
+            "The answer is 60.",
+            "the answer is 60",
+            "the answer is 60",
+            "The answer is 60",
+            "The answer is 60.",
+            "The answer is 60.",
+            "The answer is 90.",
+            "The answer is 60",
+            "The answer is 60."
+        ],
+        "infos": [
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 1712,
+            "prompt_tokens": 2068,
+            "cost": 0.0065260000000000006
+        }
+    },
+    {
+        "idx": 27,
+        "ys": [
+            "The answer is 40.",
+            "The answer is 40",
+            "The answer is 70",
+            "The answer is 40.",
+            "The answer is 40",
+            "The answer is 40",
+            "The answer is 40.",
+            "The answer is 40.",
+            "The answer is 40",
+            "The answer is 40"
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 1766,
+            "prompt_tokens": 2157,
+            "cost": 0.0067675
+        }
+    },
+    {
+        "idx": 28,
+        "ys": [
+            "The answer is 54.",
+            "The answer is 49.",
+            "The answer is 48",
+            "the answer is 48",
+            "The answer is 48",
+            "The answer is 48",
+            "the answer is 48",
+            "The answer is 54.",
+            "The answer is 48",
+            "The answer is 48."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 1820,
+            "prompt_tokens": 2232,
+            "cost": 0.006988
+        }
+    },
+    {
+        "idx": 29,
+        "ys": [
+            "The answer is 54.",
+            "The answer is 44.",
+            "The answer is 40.",
+            "The answer is 42.",
+            "the answer is 40",
+            "The answer is 40.",
+            "The answer is 42",
+            "the answer is 48",
+            "the answer is 40",
+            "The answer is 34"
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 1875,
+            "prompt_tokens": 2328,
+            "cost": 0.007242
+        }
+    },
+    {
+        "idx": 30,
+        "ys": [
+            "The answer is 6.",
+            "The answer is 8.",
+            "The answer is 12.",
+            "The answer is 8.",
+            "The answer is 8.",
+            "The answer is 8.",
+            "The answer is 12.",
+            "The answer is 12",
+            "The answer is 8.",
+            "The answer is 8"
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 1933,
+            "prompt_tokens": 2419,
+            "cost": 0.0074945
+        }
+    },
+    {
+        "idx": 31,
+        "ys": [
+            "The answer is 13.5.",
+            "the answer is 13.5.",
+            "The answer is 13.5.",
+            "The answer is 13.5.",
+            "the answer is 13.5",
+            "The answer is 13.5.",
+            "The answer is 135.",
+            "The answer is 27.",
+            "The answer is 13.5.",
+            "The answer is 40."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 2006,
+            "prompt_tokens": 2506,
+            "cost": 0.007771
+        }
+    },
+    {
+        "idx": 32,
+        "ys": [
+            "The answer is 174.",
+            "the answer is 136",
+            "The answer is 56.",
+            "The answer is 116",
+            "The answer is 112",
+            "The answer is 74",
+            "The answer is 148",
+            "the answer is 124",
+            "The answer is 76",
+            "The answer is 116"
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 2058,
+            "prompt_tokens": 2579,
+            "cost": 0.0079845
+        }
+    },
+    {
+        "idx": 33,
+        "ys": [
+            "The answer is 10.",
+            "The answer is 10.",
+            "The answer is 10.",
+            "The answer is 10.",
+            "the answer is 10",
+            "the answer is 10",
+            "the answer is 10",
+            "the answer is 10",
+            "the answer is 9.",
+            "The answer is 10."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 2114,
+            "prompt_tokens": 2646,
+            "cost": 0.008197
+        }
+    },
+    {
+        "idx": 34,
+        "ys": [
+            "The answer is 47.",
+            "The answer is 53",
+            "The answer is 65.",
+            "The answer is 62.",
+            "The answer is 58.",
+            "The answer is 47.",
+            "The answer is 41.",
+            "The answer is 54",
+            "The answer is 62.",
+            "The answer is 59."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 2172,
+            "prompt_tokens": 2744,
+            "cost": 0.008460000000000002
+        }
+    },
+    {
+        "idx": 35,
+        "ys": [
+            "the answer is 120",
+            "The answer is 120.",
+            "The answer is 300",
+            "The answer is 600",
+            "the answer is 600",
+            "The answer is 120",
+            "The answer is 240.",
+            "The answer is 60.",
+            "the answer is 600",
+            "The answer is 120"
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 2225,
+            "prompt_tokens": 2839,
+            "cost": 0.008708500000000001
+        }
+    },
+    {
+        "idx": 36,
+        "ys": [
+            "The answer is 70.",
+            "The answer is 70.",
+            "The answer is 100.",
+            "The answer is 70.",
+            "The answer is 70.",
+            "The answer is 70.",
+            "The answer is 65.",
+            "the answer is 70",
+            "the answer is 70",
+            "The answer is 70"
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 2282,
+            "prompt_tokens": 2915,
+            "cost": 0.0089365
+        }
+    },
+    {
+        "idx": 37,
+        "ys": [
+            "the answer is 64.",
+            "the answer is 64",
+            "the answer is 72",
+            "the answer is 64.",
+            "The answer is 72.",
+            "the answer is 72",
+            "The answer is 64",
+            "The answer is 64.",
+            "The answer is 72.",
+            "the answer is 64"
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 2337,
+            "prompt_tokens": 3000,
+            "cost": 0.009174000000000002
+        }
+    },
+    {
+        "idx": 38,
+        "ys": [
+            "the answer is 22",
+            "The answer is 21.",
+            "the answer is 16",
+            "The answer is 19.",
+            "the answer is 15",
+            "The answer is 18.",
+            "The answer is 21.",
+            "The answer is 15.",
+            "The answer is 20.",
+            "The answer is 22."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 2394,
+            "prompt_tokens": 3106,
+            "cost": 0.009447
+        }
+    },
+    {
+        "idx": 39,
+        "ys": [
+            "the answer is 4",
+            "The answer is 7.",
+            "The answer is 10.",
+            "The answer is 2",
+            "The answer is 7.",
+            "The answer is $2.20.",
+            "the answer is 8.80",
+            "The answer is 4.",
+            "The answer is 14.",
+            "The answer is 4."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 2455,
+            "prompt_tokens": 3166,
+            "cost": 0.009659000000000001
+        }
+    },
+    {
+        "idx": 40,
+        "ys": [
+            "The answer is 57.",
+            "the answer is 114",
+            "The answer is 84",
+            "The answer is 38.",
+            "The answer is 57",
+            "The answer is 57.",
+            "The answer is 42.",
+            "The answer is 57.",
+            "The answer is 57",
+            "The answer is 57."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 2511,
+            "prompt_tokens": 3290,
+            "cost": 0.009957
+        }
+    },
+    {
+        "idx": 41,
+        "ys": [
+            "The answer is 1,000.",
+            "The answer is 450.",
+            "The answer is 450",
+            "The answer is 450.",
+            "The answer is 500.",
+            "The answer is 300.",
+            "The answer is 450.",
+            "The answer is 300.",
+            "The answer is 300.",
+            "The answer is 450."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 2572,
+            "prompt_tokens": 3364,
+            "cost": 0.010190000000000001
+        }
+    },
+    {
+        "idx": 42,
+        "ys": [
+            "The answer is 52.",
+            "The answer is 52.",
+            "The answer is 52.",
+            "The answer is 52.",
+            "The answer is 52.",
+            "The answer is 52.",
+            "The answer is 52",
+            "the answer is 52",
+            "The answer is 52",
+            "The answer is 52"
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 2628,
+            "prompt_tokens": 3440,
+            "cost": 0.010416
+        }
+    },
+    {
+        "idx": 43,
+        "ys": [
+            "The answer is 46",
+            "The answer is 46",
+            "The answer is 46.",
+            "The answer is 46.",
+            "The answer is 46.",
+            "The answer is 46.",
+            "The answer is 46.",
+            "The answer is 46.",
+            "The answer is 46.",
+            "The answer is 46."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 2686,
+            "prompt_tokens": 3532,
+            "cost": 0.010669999999999999
+        }
+    },
+    {
+        "idx": 44,
+        "ys": [
+            "The answer is 10.",
+            "the answer is 35",
+            "The answer is 5.",
+            "The answer is 25.",
+            "the answer is 40",
+            "the answer is 65",
+            "The answer is 55",
+            "The answer is 5.",
+            "The answer is 105.",
+            "The answer is 165."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 2742,
+            "prompt_tokens": 3623,
+            "cost": 0.010918500000000001
+        }
+    },
+    {
+        "idx": 45,
+        "ys": [
+            "The answer is 30.",
+            "The answer is 30",
+            "The answer is 15",
+            "The answer is 25.",
+            "The answer is 30.",
+            "The answer is 20.",
+            "The answer is 20.",
+            "The answer is $30.",
+            "The answer is 25.",
+            "The answer is 12."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 2800,
+            "prompt_tokens": 3716,
+            "cost": 0.011174
+        }
+    },
+    {
+        "idx": 46,
+        "ys": [
+            "The answer is 14.",
+            "The answer is 28",
+            "The answer is 12.",
+            "The answer is 34",
+            "The answer is 14",
+            "the answer is 14",
+            "The answer is 42.",
+            "The answer is 28.",
+            "The answer is 15",
+            "The answer is 14."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 2855,
+            "prompt_tokens": 3784,
+            "cost": 0.011386
+        }
+    },
+    {
+        "idx": 47,
+        "ys": [
+            "The answer is $6,250,000.",
+            "the answer is 1,750,000",
+            "The answer is 1,650,000.",
+            "The answer is $1,793,750.",
+            "The answer is $575,000.",
+            "The answer is $1,537,500.",
+            "the answer is 1,265,625",
+            "The answer is 3,086,259.09.",
+            "the answer is 950,000",
+            "The answer is 27.5."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 2948,
+            "prompt_tokens": 3875,
+            "cost": 0.0117085
+        }
+    },
+    {
+        "idx": 48,
+        "ys": [
+            "The answer is 98",
+            "The answer is 98",
+            "The answer is 100.",
+            "the answer is 95",
+            "The answer is 86.",
+            "The answer is 82.",
+            "The answer is 74.",
+            "The answer is 98",
+            "The answer is 95",
+            "The answer is 92."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 3003,
+            "prompt_tokens": 3947,
+            "cost": 0.0119265
+        }
+    },
+    {
+        "idx": 49,
+        "ys": [
+            "The answer is 7.",
+            "The answer is 1.",
+            "the answer is 7",
+            "the answer is 1",
+            "The answer is 3.",
+            "The answer is 7",
+            "The answer is 8",
+            "the answer is 7",
+            "the answer is 7",
+            "The answer is 7."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 3057,
+            "prompt_tokens": 4012,
+            "cost": 0.012131999999999999
+        }
+    },
+    {
+        "idx": 50,
+        "ys": [
+            "The answer is 56",
+            "The answer is 170.",
+            "The answer is 28.",
+            "the answer is 182",
+            "The answer is 10.",
+            "The answer is 52.",
+            "The answer is 80.",
+            "The answer is 58.",
+            "The answer is $8",
+            "The answer is 174."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 3114,
+            "prompt_tokens": 4129,
+            "cost": 0.012421499999999999
+        }
+    },
+    {
+        "idx": 51,
+        "ys": [
+            "The answer is 193.",
+            "The answer is 193.",
+            "The answer is 193.",
+            "The answer is 193.",
+            "The answer is 193",
+            "The answer is 193.",
+            "The answer is 193.",
+            "the answer is 193",
+            "The answer is 600 - 198 - 209 = 193.",
+            "The answer is 193."
+        ],
+        "infos": [
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 3181,
+            "prompt_tokens": 4193,
+            "cost": 0.0126515
+        }
+    },
+    {
+        "idx": 52,
+        "ys": [
+            "The answer is $240.",
+            "The answer is 80.",
+            "the answer is $240",
+            "The answer is 200.",
+            "The answer is 200.",
+            "The answer is 160",
+            "The answer is $400.",
+            "the answer is 400",
+            "The answer is 400.",
+            "the answer is 320"
+        ],
+        "infos": [
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 3237,
+            "prompt_tokens": 4274,
+            "cost": 0.012885
+        }
+    },
+    {
+        "idx": 53,
+        "ys": [
+            "The answer is 8.",
+            "The answer is 8.",
+            "The answer is 8.",
+            "the answer is 8",
+            "the answer is 12.80",
+            "The answer is 8.",
+            "the answer is 8",
+            "The answer is 8.",
+            "The answer is $8.00",
+            "the answer is 8"
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 3296,
+            "prompt_tokens": 4342,
+            "cost": 0.013104999999999999
+        }
+    },
+    {
+        "idx": 54,
+        "ys": [
+            "the answer is 3",
+            "The answer is 3",
+            "The answer is 5",
+            "The answer is 4,000 pounds.",
+            "The answer is 4",
+            "The answer is 5.",
+            "The answer is 4",
+            "The answer is 3,200.",
+            "The answer is 5",
+            "The answer is 3,800."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 3357,
+            "prompt_tokens": 4459,
+            "cost": 0.013402500000000001
+        }
+    },
+    {
+        "idx": 55,
+        "ys": [
+            "The answer is $385,000.",
+            "The answer is 385000.",
+            "The answer is 385,000.",
+            "The answer is $385,000.",
+            "The answer is 385000.",
+            "The answer is 385000.",
+            "The answer is 385000.",
+            "The answer is 385000.",
+            "The answer is $385,000.",
+            "The answer is 385000."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 3431,
+            "prompt_tokens": 4542,
+            "cost": 0.013675
+        }
+    },
+    {
+        "idx": 56,
+        "ys": [
+            "The answer is 60.",
+            "The answer is 33.",
+            "The answer is 60%.",
+            "The answer is 60.",
+            "The answer is 60.",
+            "The answer is 60.",
+            "The answer is 60.",
+            "The answer is 55.",
+            "The answer is 40.",
+            "The answer is 60"
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 3490,
+            "prompt_tokens": 4614,
+            "cost": 0.013901
+        }
+    },
+    {
+        "idx": 57,
+        "ys": [
+            "The answer is 32.",
+            "the answer is 25",
+            "the answer is 29",
+            "the answer is 31",
+            "The answer is 29.",
+            "The answer is 28.",
+            "The answer is 29",
+            "the answer is 27",
+            "the answer is 29",
+            "the answer is 28"
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 3543,
+            "prompt_tokens": 4687,
+            "cost": 0.0141165
+        }
+    },
+    {
+        "idx": 58,
+        "ys": [
+            "The answer is 143.",
+            "The answer is 34.",
+            "The answer is 124.",
+            "The answer is 217.",
+            "the answer is 530",
+            "The answer is 38.",
+            "The answer is 114.",
+            "the answer is 112",
+            "The answer is 166.",
+            "The answer is 70."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 3601,
+            "prompt_tokens": 4812,
+            "cost": 0.01442
+        }
+    },
+    {
+        "idx": 59,
+        "ys": [
+            "The answer is 60.",
+            "The answer is 60.",
+            "The answer is 60.",
+            "The answer is 60.",
+            "The answer is 60.",
+            "the answer is 60.",
+            "The answer is 60.",
+            "The answer is 60.",
+            "The answer is 60",
+            "The answer is 60."
+        ],
+        "infos": [
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 3660,
+            "prompt_tokens": 4877,
+            "cost": 0.0146355
+        }
+    },
+    {
+        "idx": 60,
+        "ys": [
+            "The answer is 165.",
+            "The answer is 40.",
+            "the answer is 190",
+            "The answer is 410.",
+            "The answer is 540",
+            "The answer is 40",
+            "The answer is 285.",
+            "The answer is 268.",
+            "The answer is 170.",
+            "The answer is 39."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 3717,
+            "prompt_tokens": 5010,
+            "cost": 0.014949
+        }
+    },
+    {
+        "idx": 61,
+        "ys": [
+            "The answer is 260.",
+            "The answer is 220.",
+            "The answer is 280.",
+            "The answer is 270.",
+            "The answer is 280.",
+            "The answer is 200.",
+            "The answer is 290.",
+            "The answer is 310.",
+            "The answer is 220.",
+            "The answer is 290."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 3777,
+            "prompt_tokens": 5099,
+            "cost": 0.0152025
+        }
+    },
+    {
+        "idx": 62,
+        "ys": [
+            "The answer is 60.",
+            "The answer is 68%.",
+            "The answer is 70.",
+            "The answer is 67.5.",
+            "The answer is 63.",
+            "The answer is 55.",
+            "The answer is 64.5",
+            "The answer is 70.",
+            "The answer is 66.5%.",
+            "the answer is 62"
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 3841,
+            "prompt_tokens": 5190,
+            "cost": 0.015467000000000002
+        }
+    },
+    {
+        "idx": 63,
+        "ys": [
+            "The answer is 6.",
+            "The answer is 6.",
+            "The answer is 6.",
+            "The answer is 6.",
+            "The answer is 6.",
+            "The answer is 6.",
+            "The answer is $6,250.",
+            "The answer is 6250.",
+            "The answer is 6.",
+            "The answer is 6."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 3904,
+            "prompt_tokens": 5264,
+            "cost": 0.015704
+        }
+    },
+    {
+        "idx": 64,
+        "ys": [
+            "The answer is 46.",
+            "The answer is 42.",
+            "The answer is 34",
+            "The answer is 50.",
+            "The answer is 38",
+            "The answer is $28.00.",
+            "The answer is $38.00",
+            "The answer is $42.00",
+            "The answer is $50.00",
+            "The answer is 52."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 3967,
+            "prompt_tokens": 5336,
+            "cost": 0.015938
+        }
+    },
+    {
+        "idx": 65,
+        "ys": [
+            "The answer is 7.",
+            "The answer is 12",
+            "the answer is 7",
+            "The answer is 12",
+            "The answer is 9.",
+            "The answer is 8.",
+            "The answer is 12.",
+            "The answer is 7.",
+            "The answer is 12.",
+            "The answer is 7."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 4024,
+            "prompt_tokens": 5409,
+            "cost": 0.0161615
+        }
+    },
+    {
+        "idx": 66,
+        "ys": [
+            "The answer is 1296",
+            "The answer is 10,776.",
+            "The answer is 157.",
+            "the answer is 58",
+            "The answer is 19.",
+            "The answer is 370.",
+            "The answer is 364.",
+            "The answer is 730.",
+            "the answer is 364",
+            "the answer is 65436463"
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 4085,
+            "prompt_tokens": 5460,
+            "cost": 0.01636
+        }
+    },
+    {
+        "idx": 67,
+        "ys": [
+            "the answer is 42",
+            "The answer is 49.",
+            "The answer is 47.",
+            "The answer is 37",
+            "The answer is 35 pieces.",
+            "The answer is 44",
+            "The answer is 45.",
+            "the answer is 43",
+            "The answer is 49.",
+            "The answer is 44."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 4142,
+            "prompt_tokens": 5540,
+            "cost": 0.016594
+        }
+    },
+    {
+        "idx": 68,
+        "ys": [
+            "the answer is 50",
+            "The answer is 50",
+            "The answer is 50",
+            "The answer is 50",
+            "The answer is 50.",
+            "The answer is 50.",
+            "the answer is 50",
+            "The answer is 50.",
+            "the answer is 50",
+            "the answer is 50"
+        ],
+        "infos": [
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 4195,
+            "prompt_tokens": 5601,
+            "cost": 0.0167915
+        }
+    },
+    {
+        "idx": 69,
+        "ys": [
+            "The answer is 2.",
+            "The answer is 3.",
+            "The answer is 2.",
+            "The answer is 3.",
+            "The answer is 2.",
+            "the answer is 2",
+            "the answer is 4",
+            "The answer is 3.",
+            "the answer is 4",
+            "The answer is 4."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 4252,
+            "prompt_tokens": 5666,
+            "cost": 0.017003
+        }
+    },
+    {
+        "idx": 70,
+        "ys": [
+            "The answer is 500.",
+            "The answer is 500.",
+            "The answer is 500 acres.",
+            "The answer is 500.",
+            "The answer is 500.",
+            "The answer is 500.",
+            "the answer is 500",
+            "The answer is 500.",
+            "The answer is 500.",
+            "The answer is 500 acres."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 4313,
+            "prompt_tokens": 5724,
+            "cost": 0.017211999999999998
+        }
+    },
+    {
+        "idx": 71,
+        "ys": [
+            "The answer is 6.",
+            "the answer is 6",
+            "The answer is 4.",
+            "The answer is 6.",
+            "The answer is 4.",
+            "The answer is 6.",
+            "The answer is 6.",
+            "The answer is 6.",
+            "The answer is 4.",
+            "The answer is 6."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 4372,
+            "prompt_tokens": 5819,
+            "cost": 0.017472500000000002
+        }
+    },
+    {
+        "idx": 72,
+        "ys": [
+            "The answer is 420.",
+            "The answer is 400.",
+            "The answer is 100.",
+            "The answer is 410.",
+            "The answer is 280.",
+            "The answer is 220.",
+            "The answer is 280.",
+            "the answer is 430",
+            "The answer is 420.",
+            "The answer is 350."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 4431,
+            "prompt_tokens": 5948,
+            "cost": 0.017784
+        }
+    },
+    {
+        "idx": 73,
+        "ys": [
+            "The answer is 31",
+            "The answer is 31.",
+            "The answer is 31",
+            "The answer is 36.",
+            "The answer is 31",
+            "The answer is 31",
+            "The answer is 31.",
+            "The answer is 31.",
+            "The answer is 31.",
+            "The answer is 31."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 4487,
+            "prompt_tokens": 5998,
+            "cost": 0.017971
+        }
+    },
+    {
+        "idx": 74,
+        "ys": [
+            "the answer is 600",
+            "the answer is 600",
+            "The answer is 600.",
+            "The answer is 600.",
+            "the answer is 600",
+            "The answer is 600.",
+            "The answer is 600.",
+            "The answer is 600.",
+            "The answer is 600.",
+            "The answer is 600"
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 4543,
+            "prompt_tokens": 6073,
+            "cost": 0.018195500000000003
+        }
+    },
+    {
+        "idx": 75,
+        "ys": [
+            "the answer is 20",
+            "the answer is 10",
+            "The answer is 15",
+            "the answer is 20",
+            "the answer is 20",
+            "the answer is 10",
+            "the answer is 20",
+            "the answer is 20",
+            "the answer is 5",
+            "The answer is 10"
+        ],
+        "infos": [
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 4593,
+            "prompt_tokens": 6139,
+            "cost": 0.0183945
+        }
+    },
+    {
+        "idx": 76,
+        "ys": [
+            "The answer is 2.",
+            "The answer is 2.",
+            "The answer is 2.",
+            "The answer is 2.",
+            "The answer is 2.",
+            "The answer is 2.",
+            "The answer is 2.",
+            "the answer is 2",
+            "The answer is 2.",
+            "the answer is 2."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 4652,
+            "prompt_tokens": 6216,
+            "cost": 0.018628
+        }
+    },
+    {
+        "idx": 77,
+        "ys": [
+            "The answer is 1:00 pm.",
+            "The answer is 2:00 pm.",
+            "the answer is 1.",
+            "The answer is 1:00 pm.",
+            "The answer is 1 (1:00 pm).",
+            "The answer is 1",
+            "the answer is 1:00 pm.",
+            "The answer is 2.",
+            "The answer is 2:00 pm.",
+            "The answer is 2:00 pm."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 4734,
+            "prompt_tokens": 6342,
+            "cost": 0.018980999999999998
+        }
+    },
+    {
+        "idx": 78,
+        "ys": [
+            "The answer is 6.",
+            "The answer is 2.",
+            "The answer is 7",
+            "The answer is 12",
+            "The answer is 12",
+            "the answer is 12",
+            "The answer is 6.",
+            "The answer is 10",
+            "the answer is 6",
+            "the answer is 20."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 4788,
+            "prompt_tokens": 6453,
+            "cost": 0.019255500000000002
+        }
+    },
+    {
+        "idx": 79,
+        "ys": [
+            "The answer is 12.",
+            "the answer is 12",
+            "The answer is 12.",
+            "The answer is $12",
+            "The answer is 12.",
+            "The answer is $12.",
+            "The answer is 12.",
+            "The answer is 12",
+            "The answer is $12.",
+            "The answer is $12."
+        ],
+        "infos": [
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 4845,
+            "prompt_tokens": 6542,
+            "cost": 0.019503
+        }
+    },
+    {
+        "idx": 80,
+        "ys": [
+            "The answer is 770.",
+            "The answer is 614.",
+            "The answer is 622.",
+            "The answer is 517.",
+            "The answer is 561.",
+            "The answer is 605.",
+            "the answer is 520",
+            "The answer is 597.",
+            "The answer is 954.",
+            "The answer is 865."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 4904,
+            "prompt_tokens": 6621,
+            "cost": 0.0197395
+        }
+    },
+    {
+        "idx": 81,
+        "ys": [
+            "The answer is 62",
+            "The answer is $70.",
+            "The answer is 75.",
+            "The answer is 80.",
+            "The answer is 65.",
+            "The answer is 65",
+            "The answer is 62",
+            "The answer is 65.",
+            "the answer is 48",
+            "The answer is 69."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 4960,
+            "prompt_tokens": 6735,
+            "cost": 0.0200225
+        }
+    },
+    {
+        "idx": 82,
+        "ys": [
+            "The answer is 8",
+            "The answer is 8.",
+            "The answer is 14.",
+            "The answer is 16.",
+            "The answer is 14.",
+            "The answer is 14.",
+            "The answer is 12.",
+            "The answer is 24.",
+            "The answer is 12.",
+            "The answer is 12."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 5019,
+            "prompt_tokens": 6797,
+            "cost": 0.0202335
+        }
+    },
+    {
+        "idx": 83,
+        "ys": [
+            "The answer is 10.",
+            "The answer is 20.",
+            "The answer is 15",
+            "The answer is 20.",
+            "The answer is 40.",
+            "The answer is 10.",
+            "the answer is 45",
+            "The answer is 40.",
+            "The answer is 85.",
+            "The answer is 50."
+        ],
+        "infos": [
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 5077,
+            "prompt_tokens": 6883,
+            "cost": 0.0204785
+        }
+    },
+    {
+        "idx": 84,
+        "ys": [
+            "the answer is 1080",
+            "The answer is 1080.",
+            "The answer is 1080.",
+            "The answer is 1080",
+            "The answer is 1080.",
+            "The answer is 1080.",
+            "The answer is 1080.",
+            "The answer is 1080.",
+            "The answer is 1080.",
+            "The answer is 1080."
+        ],
+        "infos": [
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 5145,
+            "prompt_tokens": 6982,
+            "cost": 0.020762999999999997
+        }
+    },
+    {
+        "idx": 85,
+        "ys": [
+            "The answer is 10",
+            "The answer is 20.",
+            "The answer is 30.",
+            "The answer is 8.",
+            "The answer is 25.",
+            "The answer is 15.",
+            "The answer is 15.",
+            "The answer is 10.",
+            "The answer is 25.",
+            "The answer is 12."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 5204,
+            "prompt_tokens": 7060,
+            "cost": 0.020998
+        }
+    },
+    {
+        "idx": 86,
+        "ys": [
+            "The answer is 3",
+            "The answer is 1.",
+            "The answer is 6.",
+            "the answer is 3",
+            "The answer is 3.",
+            "The answer is 4",
+            "The answer is 5.",
+            "The answer is 4.",
+            "The answer is 2.",
+            "the answer is 6"
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 5260,
+            "prompt_tokens": 7162,
+            "cost": 0.021263
+        }
+    },
+    {
+        "idx": 87,
+        "ys": [
+            "The answer is 480.",
+            "The answer is 480.",
+            "The answer is 48.",
+            "The answer is 240.",
+            "The answer is 240.",
+            "The answer is 800.",
+            "The answer is 192.",
+            "The answer is 240",
+            "The answer is 480.",
+            "The answer is 192."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 5319,
+            "prompt_tokens": 7250,
+            "cost": 0.021513
+        }
+    },
+    {
+        "idx": 88,
+        "ys": [
+            "The answer is 44",
+            "The answer is 45.",
+            "The answer is 49",
+            "The answer is 45.",
+            "The answer is 49.",
+            "The answer is 45.",
+            "The answer is 45.",
+            "The answer is 45.",
+            "The answer is 45",
+            "the answer is 44"
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 5375,
+            "prompt_tokens": 7325,
+            "cost": 0.0217375
+        }
+    },
+    {
+        "idx": 89,
+        "ys": [
+            "The answer is 2.",
+            "the answer is 2",
+            "The answer is 5.",
+            "The answer is 4.",
+            "the answer is 3",
+            "the answer is 3",
+            "the answer is 3",
+            "The answer is 3",
+            "The answer is 2.",
+            "The answer is 5."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 5430,
+            "prompt_tokens": 7407,
+            "cost": 0.0219705
+        }
+    },
+    {
+        "idx": 90,
+        "ys": [
+            "the answer is 3",
+            "the answer is 3",
+            "The answer is 3",
+            "The answer is 3.",
+            "The answer is 3.",
+            "the answer is 3.",
+            "The answer is 3.",
+            "the answer is 3",
+            "The answer is 3",
+            "The answer is 3."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 5485,
+            "prompt_tokens": 7498,
+            "cost": 0.022217
+        }
+    },
+    {
+        "idx": 91,
+        "ys": [
+            "the answer is 11.",
+            "The answer is 8.",
+            "The answer is 7.",
+            "The answer is 12.",
+            "the answer is 9",
+            "The answer is 13.",
+            "The answer is 15.",
+            "The answer is 13.",
+            "The answer is 7",
+            "The answer is 10."
+        ],
+        "infos": [
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 5543,
+            "prompt_tokens": 7637,
+            "cost": 0.0225415
+        }
+    },
+    {
+        "idx": 92,
+        "ys": [
+            "the answer is 50 pens.",
+            "The answer is 50.",
+            "the answer is 75",
+            "the answer is 75",
+            "The answer is 50 pens.",
+            "The answer is 75 pens.",
+            "the answer is 50 pens.",
+            "The answer is 50 pens.",
+            "The answer is 50.",
+            "The answer is 50 pens."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 5607,
+            "prompt_tokens": 7701,
+            "cost": 0.0227655
+        }
+    },
+    {
+        "idx": 93,
+        "ys": [
+            "the answer is 56",
+            "The answer is 64.",
+            "The answer is 50.",
+            "The answer is 140.",
+            "The answer is 220",
+            "The answer is 166.",
+            "The answer is 47.",
+            "The answer is 98",
+            "The answer is 59.",
+            "the answer is 42"
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 5663,
+            "prompt_tokens": 7887,
+            "cost": 0.0231565
+        }
+    },
+    {
+        "idx": 94,
+        "ys": [
+            "The answer is 350.",
+            "The answer is 350.",
+            "the answer is 350.",
+            "The answer is 350 inches.",
+            "The answer is 350.",
+            "The answer is 350.",
+            "The answer is 350.",
+            "the answer is 350.",
+            "the answer is 350 inches",
+            "The answer is 350"
+        ],
+        "infos": [
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 5723,
+            "prompt_tokens": 7956,
+            "cost": 0.023379999999999998
+        }
+    },
+    {
+        "idx": 95,
+        "ys": [
+            "the answer is 1.875",
+            "the answer is 6.25",
+            "The answer is 60.",
+            "The answer is 3%.",
+            "The answer is 25%.",
+            "the answer is 45",
+            "The answer is 33%",
+            "The answer is 60.",
+            "The answer is 75.",
+            "The answer is 36."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 5784,
+            "prompt_tokens": 8043,
+            "cost": 0.0236325
+        }
+    },
+    {
+        "idx": 96,
+        "ys": [
+            "The answer is 750.",
+            "The answer is 750.",
+            "The answer is 750.",
+            "the answer is 750",
+            "The answer is 750.",
+            "the answer is 750",
+            "The answer is 750.",
+            "the answer is 750",
+            "The answer is 750.",
+            "The answer is 750."
+        ],
+        "infos": [
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 5841,
+            "prompt_tokens": 8176,
+            "cost": 0.023946000000000002
+        }
+    },
+    {
+        "idx": 97,
+        "ys": [
+            "The answer is 195.",
+            "The answer is 185",
+            "The answer is 155.",
+            "The answer is 245.",
+            "the answer is 235",
+            "The answer is 305.",
+            "The answer is 220.",
+            "The answer is 135.",
+            "The answer is 235.",
+            "The answer is $255."
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 5899,
+            "prompt_tokens": 8274,
+            "cost": 0.024208999999999998
+        }
+    },
+    {
+        "idx": 98,
+        "ys": [
+            "the answer is 38",
+            "The answer is 38",
+            "The answer is 38.",
+            "The answer is 38.",
+            "The answer is 38",
+            "The answer is 38",
+            "The answer is 38",
+            "The answer is 38.",
+            "The answer is 46.",
+            "The answer is 38."
+        ],
+        "infos": [
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 1
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 5954,
+            "prompt_tokens": 8348,
+            "cost": 0.02443
+        }
+    },
+    {
+        "idx": 99,
+        "ys": [
+            "The answer is 84.",
+            "The answer is 84.",
+            "The answer is 76.",
+            "The answer is 76.",
+            "The answer is 76.",
+            "the answer is 76",
+            "The answer is 76.",
+            "The answer is 80.",
+            "The answer is 76.",
+            "The answer is 76."
+        ],
+        "infos": [
+            {
+                "r": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 6013,
+            "prompt_tokens": 8428,
+            "cost": 0.024668000000000002
+        }
+    }
+]
