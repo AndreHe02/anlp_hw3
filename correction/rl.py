@@ -29,9 +29,6 @@ from file_io import *
 import os
 import re
 
-os.environ['http_proxy'] = 'http://agent.baidu.com:8891'
-os.environ['https_proxy'] = 'http://agent.baidu.com:8891'
-
 
 class LogMessage:
     def __init__(self, log_file, disable=False):

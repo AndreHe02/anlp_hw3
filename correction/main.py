@@ -22,10 +22,6 @@ sgl.gen()
 
 import os
 
-os.environ['http_proxy'] = 'http://agent.baidu.com:8891'
-os.environ['https_proxy'] = 'http://agent.baidu.com:8891'
-
-
 @dataclass
 class Config:
     model_id: str

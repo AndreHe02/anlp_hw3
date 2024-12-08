@@ -9,10 +9,6 @@ import datetime
 import tiktoken
 import os
 
-os.environ['http_proxy'] = 'http://agent.baidu.com:8891'
-os.environ['https_proxy'] = 'http://agent.baidu.com:8891'
-
-
 def num_tokens_from_string(string: str, encoding_name: str = "cl100k_base") -> int:
     encoding = tiktoken.get_encoding(encoding_name)
     num_tokens = len(encoding.encode(string))
@@ -53,7 +49,6 @@ def mp(func, data, processes=20, **kwargs):
         result_collect.extend(result)
     return result_collect
 
-
 def all_file(dirname):
     fl = []
     for root, dirs, files in os.walk(dirname):
@@ -61,7 +56,6 @@ def all_file(dirname):
             path = os.path.join(root, item)
             fl.append(path)
     return fl
-
 
 def read_file(file):
     out = []

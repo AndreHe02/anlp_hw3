@@ -30,9 +30,6 @@ import os
 import bm25s
 import re
 
-os.environ['http_proxy'] = 'http://agent.baidu.com:8891'
-os.environ['https_proxy'] = 'http://agent.baidu.com:8891'
-
 
 def remove_span(text):
     pattern = r"'''''[^']*'''''(?:\s*\([^()]*\))?"

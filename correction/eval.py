@@ -8,6 +8,7 @@ from collections import Counter
 from norm import math_normalizer as math_norm
 from norm import numbered
 from torch.nn.utils.rnn import pad_sequence
+from vllm import LLM, SamplingParams, TokensPrompt
 import torch.nn.functional as F
 from collections import defaultdict
 from scipy.stats import hypergeom
@@ -15,7 +16,7 @@ import random
 import math
 import re
 import os
-
+import requests
 
 def build_gold():
     data = read_jsonl('data/phase2_train.jsonl')
@@ -208,17 +209,22 @@ def wmv(file_name='out/gsm8k-64-branch-all.jsonl'):
         print(k, sum(v) / len(v))
 
 
-# print(sum(acc) /len(acc))
-
-
 def predict(data, seed, demos=None, model_name='meta-llama/Llama-3.2-1B-Instruct', num_sample=1):
-    gpu_id = seed % 8
-    model = AutoModelForCausalLM.from_pretrained(
-        model_name,
-        torch_dtype=torch.bfloat16,
+    sampling_params = SamplingParams(
+            temperature=1.0, 
+            top_p=0.9,
+            max_tokens=1024, 
+            n = num_sample
     )
-    model = model.to(f'cuda:{gpu_id}')
-    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    sampling_params_parse_answer = SamplingParams(
+            temperature=0.5, 
+            top_p=0.9,
+            max_tokens=1024, 
+            n = 1
+    )
+    print(f"Seed: {seed}")
+    gpu_id = seed % 4
+    model = LLM(model_name, tokenizer = model_name, device=f'cuda:{gpu_id}', max_model_len=32768)
     os.system('sh kill_gpu.sh')
     bar = tqdm(data)
     acc = []
@@ -264,77 +270,65 @@ def predict(data, seed, demos=None, model_name='meta-llama/Llama-3.2-1B-Instruct
 
         # messages = [{"role": "user", "content": prompt}, {'role': 'assistant', 'content': item['initial_reason_steps'] + item['rejected'] + '\nWait, this step is incorrect! Lets try again:'}]
 
-        messages = [{"role": "user", "content": prompt}]
-        input_ids = tokenizer.apply_chat_template(messages, tokenize=True, add_generation_prompt=True)
+        # messages = [{"role": "user", "content": prompt}]
+        # input_ids = model.get_tokenizer().apply_chat_template(messages, tokenize=True, add_generation_prompt=True)
+        # input_ids = tokenizer.apply_chat_template(messages, tokenize=True, add_generation_prompt=True)
 
-        # messages = [{"role": "user", "content": prompt}, {'role': 'assistant', 'content': "Lets think step by step.\n\nStep 1:"}]
-        # input_ids = tokenizer.apply_chat_template(messages, tokenize=True, add_generation_prompt=False)
-        # input_ids = input_ids[:-1]
+        messages = [{"role": "user", "content": prompt}, {'role': 'assistant', 'content': "Lets think step by step.\n\nStep 1:"}]
+        input_ids = model.get_tokenizer().apply_chat_template(messages, tokenize=True, add_generation_prompt=False)[:-1]
 
-        out = model.generate(
-            input_ids=torch.tensor([input_ids]).to(f'cuda:{gpu_id}'),
-            max_new_tokens=1024,
-            do_sample=num_sample != 1,
-            temperature=1,
-            top_p=0.9,
-            num_return_sequences=num_sample,
-            pad_token_id=tokenizer.eos_token_id,
-        )
-
-        # prefix = [tokenizer.decode(x).replace('<|eot_id|>', '').strip() for x in out]
-        # prefix = [tokenizer.encode(x + '\n\nIn conclusion, the final answer is: $\\boxed{') for x in prefix]
-        # out = []
-        # for p in prefix:
-        #     out.append(model.generate(
-        #         input_ids=torch.tensor([p]).to(f'cuda:{gpu_id}'), 
-        #         max_new_tokens=128,
-        #         do_sample=False,
-        #         temperature=1.0,
-        #         top_p=1,
-        #         pad_token_id=tokenizer.eos_token_id,
-        #     )[0])
-
-        # out = [x[len(input_ids):] for x in out]
-        # outputs = tokenizer.decode(out)
-        outputs = [tokenizer.decode(x).replace('<|eot_id|>', '') for x in out]
-        # outputs = outputs[0]["generated_text"][-1]['content']
-        print(outputs[0])
+        out = model.generate(prompt_token_ids=input_ids, sampling_params=sampling_params)
+        prefix = [x.text.replace('<|eot_id|>', '').strip() for x in out[0].outputs]
+        prefix_tokens = [input_ids + model.get_tokenizer().encode(x + '\n\nIn conclusion, the final answer is: $\\boxed{')[1:] for x in prefix]
+        answer_tokens = model.generate(prompt_token_ids=prefix_tokens, sampling_params=sampling_params_parse_answer)
+        answer_tokens = [x.outputs[0].token_ids for x in answer_tokens]
+        out = [prefix_tokens[i] + list(answer_tokens[i]) for i in range(len(prefix_tokens))]
+        
+        out = [x[len(input_ids):] for x in out]
+        outputs = ["Step 1: " +  model.get_tokenizer().decode(x).replace('<|eot_id|>', '') for x in out]
 
         answers = [math_norm(x) for x in outputs]
         answer = get_majority_vote(answers)
-        print(answer, label)
+        #print(answer, label)
         # answer = answers[0]
+        
         acc.append(int(str(answer) == str(label)))
         out_responses.append({'acc': acc[-1], 'question': problem, 'answer': item['answer'], 'solution': outputs})
         bar.set_postfix(acc=sum(acc) / len(acc))
+        # save the output every 100 examples
+        if len(out_responses) % 100 == 0:
+            write_jsonl(out_responses, f'out/tmp_{gpu_id}.jsonl')
+
     model = model.cpu()
     del model
     torch.cuda.empty_cache()
     return out_responses
 
-
 def main():
     from prompt import MATH_LEVEL2, GSM8K
     # model_name = 'meta-llama/Llama-3.2-3B-Instruct'
-    # model_name = 'models/Llama-3.1-8B-Instruct'
-    model_name = 'models/Llama-3.2-1B-Instruct-PPO/policy'
+    model_name = '/usr1/data/weihuad/hug/meta-llama/Llama-3.1-8B-Instruct/'
+    # model_name = 'models/Llama-3.2-1B-Instruct-PPO/policy'
 
     # data = load_dataset('AI-MO/aimo-validation-math-level-4')['train']
     # data = load_dataset('openai/gsm8k', 'main')['test']
     # data = load_dataset('xinlai/Math-Step-DPO-10K')['train']
-    data = load_dataset('openai/gsm8k', 'main')['test']
+    # data = load_dataset('openai/gsm8k', 'main')['test']
 
     # data = read_jsonl('out/gsm8k-32-1b-short-rollout.jsonl')
 
     # data = read_jsonl('data/test.jsonl')
-    # data = read_jsonl('data/train_math_gsm.jsonl')
+    data = read_jsonl('data/train_math_gsm.jsonl')
+    #np.random.seed(42)
+    #data = np.random.choice(data, 5000, replace=False)
 
     # data = [x for x in data][100:]
 
-    data = [x for x in data][:100]
+    # data = [x for x in data][:100]
     # data = [x for x in data]
     # output = predict(data, 0, num_sample=1, demos=MATH_LEVEL2, model_name=model_name)
-    output = mp(predict, data, processes=16, num_sample=32, demos=MATH_LEVEL2, model_name=model_name)
+    torch.multiprocessing.set_start_method('spawn')
+    output = mp(predict, data, processes=4, num_sample=10, demos=MATH_LEVEL2, model_name=model_name)
     # write_jsonl(output, 'out/ckpt-gsm8k-32-1b-nli.jsonl')
     write_jsonl(output, 'out/gsm8k-ppo-32-1b.jsonl')
     # write_jsonl(output, 'data/Llama-3B-Branch.jsonl')
@@ -348,7 +342,7 @@ def main():
 
 if __name__ == '__main__':
     main()
-    wmv('out/gsm8k-ppo-32-1b.jsonl')
+    #wmv('out/gsm8k-ppo-32-1b.jsonl')
     # main()
 
 

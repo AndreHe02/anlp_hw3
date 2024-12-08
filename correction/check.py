@@ -14,9 +14,6 @@ import random
 import re
 import os
 
-os.environ['http_proxy'] = 'http://agent.baidu.com:8891'
-os.environ['https_proxy'] = 'http://agent.baidu.com:8891'
-
 def show_nli():
     data = read_jsonl('data/Llama-3B-Branch-NLI.jsonl')
     for item in data:
