@@ -198,13 +198,13 @@ class TrainGenData(TrainRMData):
     def __getitem__(self, index):
         question = self.data[index]['question']
 
-        # solution = self.data[index]['solution']
-        # solution = random.choice(solution)
-        # solution = 'Lets think step by step.\n\nStep 1:' + solution.replace('<|eot_id|>', '')
-        # answer = '\n\n'.join(split_steps(solution))
+        solution = self.data[index]['solution']
+        solution = random.choice(solution)
+        solution = 'Lets think step by step.\n\nStep 1:' + solution.replace('<|eot_id|>', '')
+        answer = '\n\n'.join(split_steps(solution))
 
-        solution = self.data[index]['longCOT']
-        answer = solution
+        # solution = self.data[index]['longCOT']
+        # answer = solution
 
         messages = [{'role': 'user', 'content': question}, {'role': 'assistant', 'content': answer}]
         ids = self.tokenizer.apply_chat_template(messages, tokenize=True, add_generation_prompt=False)
@@ -362,7 +362,7 @@ def train_prm():
     good_token_id = 15571  # Good (First token)
     bad_token_id = 17519  # Bad
 
-    save_path = 'models/Llama-3.2-1B-Instruct-ORM'
+    save_path = 'models/Llama-3.2-1B-Instruct-SFT'
 
     # model_name = 'meta-llama/Llama-3.2-1B-Instruct'
     # save_path = 'models/Llama-3.2-1B-Instruct-Value-Rollout'
@@ -370,7 +370,7 @@ def train_prm():
     model_name = 'models/Llama-3.2-1B-Instruct'
     # AutoModelForSequenceClassification
     # AutoModelForCausalLM, AutoModelForCausalLMWithValueHead
-    model = AutoModelForSequenceClassification.from_pretrained(
+    model = AutoModelForCausalLM.from_pretrained(
         model_name,
         torch_dtype=torch.bfloat16,
         attn_implementation="flash_attention_2",
@@ -378,7 +378,7 @@ def train_prm():
     )
     model.config.use_cache = False
     model.config.pad_token_id = 128004
-    # model.gradient_checkpointing_enable()
+    model.gradient_checkpointing_enable()
 
     # old_model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch.bfloat16,
     #     attn_implementation="flash_attention_2")
@@ -403,9 +403,9 @@ def train_prm():
     # data = [x for x in data if x['acc'] > 0]
     logger.log('Data', len(data))
     # dataset = TrainCorrectData(data, tokenizer)
-    # dataset = TrainGenData(data, tokenizer)
+    dataset = TrainGenData(data, tokenizer)
     # dataset = TrainRefRollOutData(data, tokenizer, num=8)
-    dataset = TrainORMData(data, tokenizer)
+    # dataset = TrainORMData(data, tokenizer)
     accelerator.print(tokenizer.decode(dataset[0][0][0]))
     # accelerator.print(dataset[0][1])
     data_loader = torch.utils.data.DataLoader(dataset, collate_fn=dataset.collate_fn, shuffle=True,
@@ -426,22 +426,22 @@ def train_prm():
         kl = [0]
         for batch in tk0:
             with accelerator.accumulate(model):
-                logits = model(batch['input_ids']).logits
-                labels = batch['labels'].unsqueeze(1)
-                log_diff = -F.logsigmoid(logits - logits.t())
-                true_diff = (labels - labels.t()) > 0.1
-                log_diff[~true_diff] = 0.
-                loss = log_diff.sum() / true_diff.sum()
+                # logits = model(batch['input_ids']).logits
+                # labels = batch['labels'].unsqueeze(1)
+                # log_diff = -F.logsigmoid(logits - logits.t())
+                # true_diff = (labels - labels.t()) > 0.1
+                # log_diff[~true_diff] = 0.
+                # loss = log_diff.sum() / true_diff.sum()
 
-                loss += 0.05 * torch.mean((logits.sum()) ** 2)
+                # loss += 0.05 * torch.mean((logits.sum()) ** 2)
 
                 # r_good = model(batch['good_ids'], attention_mask=batch['good_ids'].ne(128004)).logits
                 # r_bad = model(batch['bad_ids'], attention_mask=batch['bad_ids'].ne(128004)).logits
                 # loss = -F.logsigmoid(r_good - r_bad).mean()
                 # loss += 0.1 * torch.mean((r_good + r_bad) ** 2)
 
-                # out = model(input_ids=batch['input_ids'], labels=batch['labels'])
-                # loss = out.loss
+                out = model(input_ids=batch['input_ids'], labels=batch['labels'])
+                loss = out.loss
 
                 # out = model(input_ids=batch['input_ids'])
                 # loss = gae_loss(out, batch['index'], batch['labels'])
