@@ -139,7 +139,7 @@ def build_path():
         #         deep_incorrect = []
         # print('\n**********\n'.join(prefix))
 
-        if True:
+        if False:
             question = new_data[-1]['question']
             prefix = new_data[-1]['prefix']
             correct = new_data[-1]['correct']
@@ -196,7 +196,7 @@ def build_path():
             input()
 
     print(len(new_data))
-    # write_jsonl(new_data, 'data/Llama-3B-Branch.jsonl')
+    write_jsonl(new_data, 'data/New-Branch.jsonl')
 
 
 def show_tree():
