@@ -12,3 +12,6 @@ https://github.com/AndreHe02/anlp_hw3/tree/master/tot
 python o1_sft.py
 python o1_eval.py
 ```
+
+## Correction Data Construction
+The code is available under the `correction` folder.
