@@ -1,8 +1,6 @@
+# ANLP HW4
 
-
-# ANLP HW3
-
-# Eval TOT
+## Eval TOT
 
 see /tot
 
